@@ -8,7 +8,7 @@ This repository includes major questions in DSA realated to mathematics :
 We will go around the questions one by one with the increasing order of difficulty:
 
 #### QUESTION 1: 
-We are given a number and we are suppose to find the number of digits in the given number
+We are given a number and we are suppose to **find the number of digits in the given number**
 
 #### EXAMPLE TEST CASES
 
