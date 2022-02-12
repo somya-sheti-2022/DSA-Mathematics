@@ -30,7 +30,6 @@ int noOfDigits(int number){
 }
 ```
 
-#### Time Complexity
 As the loop is running till the number of digits in the given input the time Complexity is supposed to be
 
 **Time Complexity: *O(d)***\
