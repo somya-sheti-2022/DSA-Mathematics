@@ -37,6 +37,6 @@ As the loop is running till the number of digits in the given input the time Com
 
 [Complete Code Link](https://github.com/somya-sheti-2022/DSA-Mathematics/blob/main/noOfDigits.cpp)
 
-#### Output of above code
+### Output of above code
 
 ![App Screenshot](https://github.com/somya-sheti-2022/DSA-Mathematics/blob/main/Question1.PNG)
