@@ -81,7 +81,7 @@ As the loop is running till the number of digits in the given input the time Com
 
 ![App Screenshot](https://github.com/somya-sheti-2022/DSA-Mathematics/blob/main/Question2.PNG)
 
-#### QUESTION 2: 
+#### QUESTION 3: 
 We are given a number and we are suppose to find **factorial for the given number.** 
 
 ### Factorial Number
