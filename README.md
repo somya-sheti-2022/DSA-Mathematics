@@ -183,3 +183,40 @@ int lcm(int number1,int number2){
 ### Output of above code
 
 ![App Screenshot](https://github.com/somya-sheti-2022/DSA-Mathematics/blob/main/Question5.PNG)
+
+#### QUESTION 5: 
+We are given a numbers and we are suppose to tell **if the number is prime or not?** 
+
+### Prime Number
+Number divisible only by 1 and itself\
+**Example: 7**
+
+#### EXAMPLE TEST CASES
+
+| Input | Output     |
+| :-------- | :------- |
+| 7 | true |
+| 12  | false |
+| 13  | true |
+
+The idea we use is factors occurs in pairs and one of them is always less than **sqrt(n)**
+
+#### Main logic
+```cpp      
+bool isPrime(int number){
+    for(int i=2;i*i<=number;i++)
+        if(number%i==0)return false;
+    return true;
+}
+```
+
+Since the loop is running till **Square root of the given Number**\
+**Time Complexity: *O(sqrt(n))***\
+(n: given number)
+
+[Complete Code Link](https://github.com/somya-sheti-2022/DSA-Mathematics/blob/main/isPrime.cpp)
+
+
+### Output of above code
+
+![App Screenshot](https://github.com/somya-sheti-2022/DSA-Mathematics/blob/main/Question6.PNG)
