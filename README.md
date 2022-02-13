@@ -7,7 +7,7 @@ This repository includes major questions in DSA realated to mathematics :
 ## Let's get started
 We will go around the questions one by one with the increasing order of difficulty:
 
-#### QUESTION 1: 
+### QUESTION 1: 
 We are given a number and we are suppose to **find the number of digits in the given number**
 
 #### EXAMPLE TEST CASES
@@ -41,7 +41,7 @@ As the loop is running till the number of digits in the given input the time Com
 
 ![App Screenshot](https://github.com/somya-sheti-2022/DSA-Mathematics/blob/main/Question1.PNG)
 
-#### QUESTION 2: 
+### QUESTION 2: 
 We are given a number and we are suppose to say if the **number is palindrome or not** 
 
 ### Palindrome number
@@ -81,7 +81,7 @@ As the loop is running till the number of digits in the given input the time Com
 
 ![App Screenshot](https://github.com/somya-sheti-2022/DSA-Mathematics/blob/main/Question2.PNG)
 
-#### QUESTION 3: 
+### QUESTION 3: 
 We are given a number and we are suppose to find **factorial for the given number.** 
 
 ### Factorial Number
@@ -119,7 +119,7 @@ As the loop is running from 1 to number the time Complexity is supposed to be
 
 ![App Screenshot](https://github.com/somya-sheti-2022/DSA-Mathematics/blob/main/Question3.PNG)
 
-#### QUESTION 4: 
+### QUESTION 4: 
 We are given two numbers and we are suppose to find **greatest common divisor of 2 numbers.** 
 
 ### GCD 
@@ -152,7 +152,7 @@ int gcd(int number1,int number2){
 
 ![App Screenshot](https://github.com/somya-sheti-2022/DSA-Mathematics/blob/main/Question4.PNG)
 
-#### QUESTION 5: 
+### QUESTION 5: 
 We are given two numbers and we are suppose to find **least common divisor of 2 numbers.** 
 
 ### LCM
@@ -184,7 +184,7 @@ int lcm(int number1,int number2){
 
 ![App Screenshot](https://github.com/somya-sheti-2022/DSA-Mathematics/blob/main/Question5.PNG)
 
-#### QUESTION 6: 
+### QUESTION 6: 
 We are given a numbers and we are suppose to tell **if the number is prime or not?** 
 
 ### Prime Number
@@ -221,7 +221,7 @@ Since the loop is running till **Square root of the given Number**\
 
 ![App Screenshot](https://github.com/somya-sheti-2022/DSA-Mathematics/blob/main/Question6.PNG)
 
-#### QUESTION 7: 
+### QUESTION 7: 
 We are given a numbers and we are suppose to find **prime factors of given number** 
 
 #### EXAMPLE TEST CASES
