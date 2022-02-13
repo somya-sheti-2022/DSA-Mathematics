@@ -151,3 +151,35 @@ int gcd(int number1,int number2){
 ### Output of above code
 
 ![App Screenshot](https://github.com/somya-sheti-2022/DSA-Mathematics/blob/main/Question4.PNG)
+
+#### QUESTION 5: 
+We are given two numbers and we are suppose to find **least common divisor of 2 numbers.** 
+
+### LCM
+Least common divisor is the smallest number that is multiple of both the given number\
+**Example: 12, 16 Ouput will be 48.**
+
+#### EXAMPLE TEST CASES
+
+| Input | Output     |
+| :-------- | :------- |
+| 11,7 | 77 |
+| 12,24  | 24 |
+| 12,18  | 36 |
+
+#### Main logic
+```cpp      
+int lcm(int number1,int number2){
+    return number*number2/gcd(number,number2)
+}
+```
+
+**Time Complexity: *O(log(max(n1,n2))***\
+(n1: number1, n2:number2)
+
+[Complete Code Link](https://github.com/somya-sheti-2022/DSA-Mathematics/blob/main/lcm.cpp)
+
+
+### Output of above code
+
+![App Screenshot](https://github.com/somya-sheti-2022/DSA-Mathematics/blob/main/Question5.PNG)
