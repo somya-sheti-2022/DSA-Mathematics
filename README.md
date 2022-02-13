@@ -80,3 +80,41 @@ As the loop is running till the number of digits in the given input the time Com
 ### Output of above code
 
 ![App Screenshot](https://github.com/somya-sheti-2022/DSA-Mathematics/blob/main/Question2.PNG)
+
+#### QUESTION 2: 
+We are given a number and we are suppose to find **factorial for the given number.** 
+
+### Factorial Number
+Multiplication from 1 to N (N=number) and storing in a result.\
+**Example: 4 Output: 24 (1 * 2 * 3 * 4)**
+
+#### EXAMPLE TEST CASES
+
+| Input | Output     |
+| :-------- | :------- |
+| 4  | 24 |
+| 5  | 120 |
+| 14  | 1278945280 |
+
+#### Main logic
+```cpp      
+int factorial(int number){
+    int result=1;
+    for(int i=1;i<=number;i++){
+        result*=i;
+    }
+    return result;
+}
+```
+
+As the loop is running from 1 to number the time Complexity is supposed to be
+
+**Time Complexity: *O(n)***\
+(n: number)
+
+[Complete Code Link](https://github.com/somya-sheti-2022/DSA-Mathematics/blob/main/factorial.cpp)
+
+
+### Output of above code
+
+![App Screenshot](https://github.com/somya-sheti-2022/DSA-Mathematics/blob/main/Question3.PNG)
