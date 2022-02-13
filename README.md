@@ -118,3 +118,36 @@ As the loop is running from 1 to number the time Complexity is supposed to be
 ### Output of above code
 
 ![App Screenshot](https://github.com/somya-sheti-2022/DSA-Mathematics/blob/main/Question3.PNG)
+
+#### QUESTION 4: 
+We are given two numbers and we are suppose to find **greatest common divisor of 2 numbers.** 
+
+### GCD 
+Greatest common divisor is the largest number that divides both the given number\
+**Example: 12, 16 Ouput will be 4.**
+
+#### EXAMPLE TEST CASES
+
+| Input | Output     |
+| :-------- | :------- |
+| 11,7 | 1 |
+| 12,24  | 12 |
+| 12,18  | 6 |
+
+#### Main logic
+```cpp      
+int gcd(int number1,int number2){
+    if(number2==0)return number1;
+    return gcd(number2,number1%number2);
+}
+```
+
+**Time Complexity: *O(log(max(n1,n2))***\
+(n1: number1, n2:number2)
+
+[Complete Code Link](https://github.com/somya-sheti-2022/DSA-Mathematics/blob/main/gcd.cpp)
+
+
+### Output of above code
+
+![App Screenshot](https://github.com/somya-sheti-2022/DSA-Mathematics/blob/main/Question4.PNG)
