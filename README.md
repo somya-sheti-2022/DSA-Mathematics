@@ -184,7 +184,7 @@ int lcm(int number1,int number2){
 
 ![App Screenshot](https://github.com/somya-sheti-2022/DSA-Mathematics/blob/main/Question5.PNG)
 
-#### QUESTION 5: 
+#### QUESTION 6: 
 We are given a numbers and we are suppose to tell **if the number is prime or not?** 
 
 ### Prime Number
@@ -220,3 +220,39 @@ Since the loop is running till **Square root of the given Number**\
 ### Output of above code
 
 ![App Screenshot](https://github.com/somya-sheti-2022/DSA-Mathematics/blob/main/Question6.PNG)
+
+#### QUESTION 7: 
+We are given a numbers and we are suppose to find **prime factors of given number** 
+
+#### EXAMPLE TEST CASES
+
+| Input | Output     |
+| :-------- | :------- |
+| 315 | 3,3,5,7 |
+| 13  | 13 |
+| 12  | 2,2,3 |
+
+#### Main logic
+```cpp      
+void primeFactors(int number){
+    for(int i=2;i*i<=number;i++){
+        while(number%i==0){
+            cout<<i<<", ";
+            number=number/i;
+        }
+    }
+    if(number>=2)cout<<number;
+    cout<<endl;
+    return;
+}
+```
+
+**Time Complexity: * O(n^(1/2) log n)***\
+(n: given number)
+
+[Complete Code Link](https://github.com/somya-sheti-2022/DSA-Mathematics/blob/main/primeFactors.cpp)
+
+
+### Output of above code
+
+![App Screenshot](https://github.com/somya-sheti-2022/DSA-Mathematics/blob/main/Question7.PNG)
